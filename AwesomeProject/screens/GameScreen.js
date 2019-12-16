@@ -1,12 +1,10 @@
 import React from 'react';
-import { ExpoConfigView } from '@expo/samples';
+import Game from '../components/Game'
 
 export default function GameScreen() {
-  /**
-   * Go ahead and delete ExpoConfigView and replace it with your content;
-   * we just wanted to give you a quick view of your config.
-   */
-  return <ExpoConfigView />;
+  return (
+    <Game />
+  )
 }
 
 GameScreen.navigationOptions = {
