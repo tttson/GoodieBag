@@ -6,3 +6,10 @@ export function PacificoText(props) {
     <Text {...props} style={[props.style, { fontFamily: 'pacifico' }]} />
   );
 }
+
+
+export function DigitalText(props) {
+  return (
+    <Text {...props} style={[props.style, { fontFamily: 'digital-7' }]} />
+  );
+}

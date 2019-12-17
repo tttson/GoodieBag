@@ -9,7 +9,7 @@ const TopBar = (props) =>  {
   return (
     <View style={styles.container}>
         <View style={styles.linkText}>
-          <PacificoText><Text style={{fontSize: 45, color: 'white'}}>Goodie Bag</Text></PacificoText>
+          <PacificoText><Text style={{fontSize: 40, color: 'white'}}>Goodie Bag</Text></PacificoText>
         </View>
         <View style={{flexDirection: 'column'}}>
             <View style={styles.linkText2}>

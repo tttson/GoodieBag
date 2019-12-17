@@ -40,6 +40,7 @@ async function loadResourcesAsync() {
       // We include SpaceMono because we use it in HomeScreen.js. Feel free to
       // remove this if you are not using it in your app
       'pacifico': require('./assets/fonts/Pacifico.ttf'),
+      'digital-7': require('./assets/fonts/digital-7.ttf'),
     }),
   ]);
 }
